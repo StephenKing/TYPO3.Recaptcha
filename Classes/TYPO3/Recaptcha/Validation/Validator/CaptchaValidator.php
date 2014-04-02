@@ -26,7 +26,7 @@ class CaptchaValidator extends AbstractValidator {
 
 	/**
 	 * @Flow\Inject
-	 * @var Recaptcha
+	 * @var TYPO3\Recaptcha\Domain\Model\Recaptcha
 	 */
 	protected $recaptcha;
 
